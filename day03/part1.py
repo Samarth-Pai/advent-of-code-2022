@@ -13,4 +13,3 @@ with open("input.txt") as f:
     combinations = dict(zip(string.ascii_letters,range(1,53)))
     priorityNumbers = list(map(lambda x:combinations[x],alphabetPriorities))
     print(sum(priorityNumbers))
-    
