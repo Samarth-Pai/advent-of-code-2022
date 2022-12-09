@@ -1,6 +1,5 @@
 with open("input.txt") as f:
     lines = f.readlines()
-summ = 0
 tree = {"": []}
 pos = ""
 for line in lines:
